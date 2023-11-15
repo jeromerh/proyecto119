@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(12, 32, 255);
+}
+h1{
+    color: darkred;
+}
+#boton{
+    background-color: paleturquoise;
+    border-radius: 20px;
+}
+#show_sketch{
+    border-radius: 20px dotted rgb(50, 146, 50);
+    border-style: dotted;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px gray;
+    animation-name: brillo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes brillo{
+    from{box-shadow: 1px 1px 38px magenta;}
+    to{box-shadow: 1px 1px 38px cyan;}
+}
+
+#temporizador{
+ font-size: 18px ;
+ float: right;
+ color: white;
+}
+
+#puntuacion{
+    font-size: 18px;
+    color:white;
+}
+
+
+
